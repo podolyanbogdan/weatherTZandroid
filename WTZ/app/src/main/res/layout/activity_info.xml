@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutChetverg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmain"
+    tools:context=".InfoActivity">
+
+    <LinearLayout
+        android:id="@+id/LayoutPonedelnik"
+        android:layout_width="413dp"
+        android:layout_height="107dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/layoutVtornik"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvPonedel"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center"
+            android:text="@string/text_pn"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvGradusi"
+            app:layout_constraintEnd_toEndOf="@+id/tvGradusi"
+            app:layout_constraintStart_toStartOf="@+id/tvGradusi"
+            app:layout_constraintTop_toBottomOf="@+id/tvUpdateTime"
+            app:layout_constraintVertical_bias="0.75" />
+
+        <TextView
+            android:id="@+id/tvPonedelnik"
+            android:layout_width="485dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="left"
+            android:text="@string/text_pn2"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="32sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutVtornik"
+        android:layout_width="413dp"
+        android:layout_height="107dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/layoutSreda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LayoutPonedelnik">
+
+        <TextView
+            android:id="@+id/tvVtornik"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center"
+            android:text="@string/text_vt"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvGradusi"
+            app:layout_constraintEnd_toEndOf="@+id/tvGradusi"
+            app:layout_constraintStart_toStartOf="@+id/tvGradusi"
+            app:layout_constraintTop_toBottomOf="@+id/tvUpdateTime"
+            app:layout_constraintVertical_bias="0.75" />
+
+        <TextView
+            android:id="@+id/tvVtornik2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="left"
+            android:text="@string/text_v2"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutSreda"
+        android:layout_width="413dp"
+        android:layout_height="107dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/layoutChtverg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutVtornik">
+
+        <TextView
+            android:id="@+id/tvSreda"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center"
+            android:text="@string/text_sr"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvGradusi"
+            app:layout_constraintEnd_toEndOf="@+id/tvGradusi"
+            app:layout_constraintStart_toStartOf="@+id/tvGradusi"
+            app:layout_constraintTop_toBottomOf="@+id/tvUpdateTime"
+            app:layout_constraintVertical_bias="0.75" />
+
+        <TextView
+            android:id="@+id/tvSreda2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="left"
+            android:text="@string/text_sr2"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutChtverg"
+        android:layout_width="413dp"
+        android:layout_height="107dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/layoutPytatnica"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutSreda">
+
+        <TextView
+            android:id="@+id/tvCht"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center"
+            android:text="@string/text_cht"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvGradusi"
+            app:layout_constraintEnd_toEndOf="@+id/tvGradusi"
+            app:layout_constraintStart_toStartOf="@+id/tvGradusi"
+            app:layout_constraintTop_toBottomOf="@+id/tvUpdateTime"
+            app:layout_constraintVertical_bias="0.75" />
+
+        <TextView
+            android:id="@+id/tvCht2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="left"
+            android:text="@string/text_cht2"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutPytatnica"
+        android:layout_width="413dp"
+        android:layout_height="107dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/layoutSubbota"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutChtverg">
+
+        <TextView
+            android:id="@+id/tvPyat"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center"
+            android:text="@string/text_pt"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvGradusi"
+            app:layout_constraintEnd_toEndOf="@+id/tvGradusi"
+            app:layout_constraintStart_toStartOf="@+id/tvGradusi"
+            app:layout_constraintTop_toBottomOf="@+id/tvUpdateTime"
+            app:layout_constraintVertical_bias="0.75" />
+
+        <TextView
+            android:id="@+id/tvPyat2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="left"
+            android:text="@string/text_pt2"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutSubbota"
+        android:layout_width="413dp"
+        android:layout_height="107dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/layoutVoskr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutPytatnica">
+
+        <TextView
+            android:id="@+id/tvSubb"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center"
+            android:text="@string/text_sb"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvGradusi"
+            app:layout_constraintEnd_toEndOf="@+id/tvGradusi"
+            app:layout_constraintStart_toStartOf="@+id/tvGradusi"
+            app:layout_constraintTop_toBottomOf="@+id/tvUpdateTime"
+            app:layout_constraintVertical_bias="0.75" />
+
+        <TextView
+            android:id="@+id/tvSubb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="left"
+            android:text="@string/text_sb2"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutVoskr"
+        android:layout_width="413dp"
+        android:layout_height="107dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutSubbota">
+
+        <TextView
+            android:id="@+id/tvVoskr"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center"
+            android:text="@string/text_voskr"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvGradusi"
+            app:layout_constraintEnd_toEndOf="@+id/tvGradusi"
+            app:layout_constraintStart_toStartOf="@+id/tvGradusi"
+            app:layout_constraintTop_toBottomOf="@+id/tvUpdateTime"
+            app:layout_constraintVertical_bias="0.75" />
+
+        <TextView
+            android:id="@+id/tvVoskr2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="left"
+            android:text="@string/text_voskr2"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmain"
+    tools:context=".SeActivity">
+
+
+    <LinearLayout
+        android:id="@+id/layoutLanguage"
+        android:layout_width="409dp"
+        android:layout_height="163dp"
+        android:layout_marginBottom="631dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/tvLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center"
+            android:text="Язык"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvGradusi"
+            app:layout_constraintEnd_toEndOf="@+id/tvGradusi"
+            app:layout_constraintStart_toStartOf="@+id/tvGradusi"
+            app:layout_constraintTop_toBottomOf="@+id/tvUpdateTime"
+            app:layout_constraintVertical_bias="0.75" />
+
+        <CheckBox
+            android:id="@+id/tvCheckRussian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:clickable="false"
+            android:fontFamily="sans-serif-thin"
+            android:text="Русский"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FFFFFF" />
+
+        <CheckBox
+            android:id="@+id/tvCheckEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:fontFamily="sans-serif-thin"
+            android:minHeight="48dp"
+            android:text="English"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FFFFFF"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutDarkMode"
+        android:layout_width="413dp"
+        android:layout_height="364dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutLanguage"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/tvDarkMode"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center"
+            android:text="Ночной режим"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvGradusi"
+            app:layout_constraintEnd_toEndOf="@+id/tvGradusi"
+            app:layout_constraintStart_toStartOf="@+id/tvGradusi"
+            app:layout_constraintTop_toBottomOf="@+id/tvUpdateTime"
+            app:layout_constraintVertical_bias="0.75" />
+
+        <CheckBox
+            android:id="@+id/checkDarkMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:text="Включить?"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FFFFFF" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

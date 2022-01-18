@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">WTZ</string>
+    <string name="text_city">Кропивницкий</string>
+    <string name="text_gradusi">0°C</string>
+    <string name="text_update_time">Обновлено: 00:00:0000 00:00</string>
+    <string name="text_winter_km">0 м/с</string>
+    <string name="text_wet">0%</string>
+    <string name="text_next_day">День</string>
+    <string name="text_min_temp">Мин темп: 0°C</string>
+    <string name="text_max_temp">Макс темп: 0°C</string>
+    <string name="text_sunrise">0:0</string>
+    <string name="text_sunset">0:0</string>
+    <string name="text_pressure">0</string>
+    <string name="text_condition">нул</string>
+    <string name="text_sunrisee">Рассвет</string>
+    <string name="text_sunsett">Закат</string>
+    <string name="text_wind">Ветер</string>
+    <string name="text_pressuree">Давление</string>
+    <string name="text_wett">Влага</string>
+    <string name="test">Тест</string>
+    <string name="text_info">Информация</string>
+    <string name="text_pn" translatable="false">Понедельник</string>
+    <string name="text_pn2" translatable="false">1°C - Пасмурно - 55% Влаги </string>
+    <string name="text_vt" translatable="false">Вторник</string>
+    <string name="text_v2" translatable="false">-3°C - Пасмурно - 76% Влаги</string>
+    <string name="text_sr" translatable="false">Среда</string>
+    <string name="text_sr2" translatable="false">0°C - Дождь - 65% Влаги</string>
+    <string name="text_cht" translatable="false">Четверг</string>
+    <string name="text_cht2" translatable="false">-4°C - Снег - 41% Влаги</string>
+    <string name="text_pt" translatable="false">Пятница</string>
+    <string name="text_pt2" translatable="false">4°C - Туман - 89% Влаги</string>
+    <string name="text_sb" translatable="false">Суббота</string>
+    <string name="text_sb2" translatable="false">1°C - Пасмурно - 44% Влаги</string>
+    <string name="text_voskr" translatable="false">Воскресенье</string>
+    <string name="text_voskr2" translatable="false">0°C - Пасмурно - 55% Влаги</string>
+
+    <string-array name="cities">
+        <item>Кировоград</item>
+        <item>Киев</item>
+        <item>Харьков</item>
+        <item>Одесса</item>
+        <item>Днепр</item>
+        <item>Донецк</item>
+        <item>Запорожье</item>
+        <item>Львов</item>
+        <item>Кривой Рог</item>
+        <item>Николаев</item>
+        <item>Луцк</item>
+        <item>Винница</item>
+        <item>Полтава</item>
+        <item>Черкассы</item>
+        <item>Житомир</item>
+    </string-array>
+    <string-array name="days">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Неделя</item>
+    </string-array>
+</resources>

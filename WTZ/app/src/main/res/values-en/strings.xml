@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">WTZ</string>
+    <string name="text_city">Кропивницкий</string>
+    <string name="text_gradusi">0°C</string>
+    <string name="text_update_time">Обновлено: 00:00:0000 00:00</string>
+    <string name="text_winter_km">0 м/с</string>
+    <string name="text_wet">0%</string>
+    <string name="text_next_day">День</string>
+    <string name="text_min_temp">Мин темп: 0°C</string>
+    <string name="text_max_temp">Макс темп: 0°C</string>
+    <string name="text_sunrise">0:0</string>
+    <string name="text_sunset">0:0</string>
+    <string name="text_pressure">0</string>
+    <string name="text_condition">нул</string>
+    <string name="text_sunrisee">Рассвет</string>
+    <string name="text_sunsett">Закат</string>
+    <string name="text_wind">Wind</string>
+    <string name="text_pressuree">Pressure</string>
+    <string name="text_wett">Wet</string>
+    <string name="test">Test</string>
+
+    <string-array name="cities">
+        <item>Кировоград</item>
+        <item>Киев</item>
+        <item>Харьков</item>
+        <item>Одесса</item>
+        <item>Днепр</item>
+        <item>Донецк</item>
+        <item>Запорожье</item>
+        <item>Львов</item>
+        <item>Кривой Рог</item>
+        <item>Николаев</item>
+        <item>Луцк</item>
+        <item>Винница</item>
+        <item>Полтава</item>
+        <item>Черкассы</item>
+        <item>Житомир</item>
+    </string-array>
+
+    <string-array name="days">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Неделя</item>
+    </string-array>
+    <string name="text_info">Information</string>
+</resources>
